@@ -15,7 +15,6 @@ import com.influxdb.client.domain.WritePrecision;
 import com.influxdb.client.write.Point;
 import com.influxdb.query.FluxTable;
 
-//@SpringBootApplication
 public class DemoApplication {
 
 	@Measurement(name = "mem")
